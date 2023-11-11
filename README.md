@@ -1,4 +1,4 @@
->===============================================================================================<
+>==================================================================<
 This is a library contains usefull function wrote in c.
 The goal is to write efficient implemtation of function used in functionnal style
 
