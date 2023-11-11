@@ -1,26 +1,35 @@
-"""This is a library contains usefull function wrote in c.
-The goal is to write efficient implemtation of function used in functionnal style"""
+# CoreForge
 
-liste of implemented functions:
+Welcome to CoreForge, a C library containing essential functions crafted for optimal performance in functional programming paradigms.
 
->    Map : Applique une fonction à chaque élément d'une liste.
-    Reduce (ou Fold) : Combine les éléments d'une liste en utilisant une fonction associative.
-    Filter : Retourne une liste contenant uniquement les éléments qui satisfont une condition donnée.
-    Zip : Combine deux listes élément par élément.
-    Scan : Produit une liste des résultats intermédiaires lors de l'application d'une fonction cumulative.
-    ForEach : Applique une fonction à chaque élément d'une liste sans retourner de résultat.
-    Any : Vérifie si au moins un élément d'une liste satisfait une condition.
-    All : Vérifie si tous les éléments d'une liste satisfont une condition.
-    Partition : Divise une liste en deux en fonction d'une condition.
-    Sort : Trie une liste selon un critère spécifié.
-    GroupBy : Regroupe les éléments d'une liste selon une clé.
-    Distinct : Retourne une liste sans doublons.
-    Take : Retourne les premiers éléments d'une liste.
-    Drop : Retourne une liste sans les premiers éléments.
-    Concat : Concatène plusieurs listes.
-    ZipWithIndex : Associe chaque élément d'une liste à son indice.
-    Repeat : Crée une liste en répétant un élément un certain nombre de fois.
-    Generate : Génère une liste en appliquant une fonction à chaque indice.
-    Chunk : Divise une liste en plusieurs morceaux de taille fixe.
-    Parallélisation automatique : Une fonction qui prend une autre fonction en paramètre et parallélise automatiquement son exécution en utilisant plusieurs cœurs.
+## Implemented Functions:
 
+- **Map**: Applies a function to each element of a list.
+- **Reduce (Fold)**: Combines list elements using an associative function.
+- **Filter**: Returns a list containing elements that satisfy a given condition.
+- **Zip**: Combines two lists element-wise.
+- **Scan**: Produces a list of intermediate results during the application of a cumulative function.
+- **ForEach**: Applies a function to each element without returning a result.
+- **Any**: Checks if at least one element satisfies a condition.
+- **All**: Checks if all elements satisfy a condition.
+- **Partition**: Divides a list based on a specified condition.
+- **Sort**: Sorts a list according to a specified criterion.
+- **GroupBy**: Groups list elements according to a key.
+- **Distinct**: Returns a list without duplicates.
+- **Take**: Returns the first elements of a list.
+- **Drop**: Returns a list without the first elements.
+- **Concat**: Concatenates multiple lists.
+- **ZipWithIndex**: Associates each element with its index.
+- **Repeat**: Creates a list by repeating an element a certain number of times.
+- **Generate**: Generates a list by applying a function to each index.
+- **Chunk**: Divides a list into chunks of a fixed size.
+- **Automatic Parallelization**: Function for automatically parallelizing execution using multiple cores.
+
+## Usage
+
+To use CoreForge in your C project, simply include the library and start leveraging these efficient functional programming functions.
+
+```c
+#include "coreforge.h"
+
+// Your code here
