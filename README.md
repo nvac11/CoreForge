@@ -1,11 +1,9 @@
->==================================================================<
-This is a library contains usefull function wrote in c.
-The goal is to write efficient implemtation of function used in functionnal style
-
+"""This is a library contains usefull function wrote in c.
+The goal is to write efficient implemtation of function used in functionnal style"""
 
 liste of implemented functions:
 
-    Map : Applique une fonction à chaque élément d'une liste.
+>    Map : Applique une fonction à chaque élément d'une liste.
     Reduce (ou Fold) : Combine les éléments d'une liste en utilisant une fonction associative.
     Filter : Retourne une liste contenant uniquement les éléments qui satisfont une condition donnée.
     Zip : Combine deux listes élément par élément.
