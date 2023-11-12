@@ -15,7 +15,7 @@ void FilterInner(int* output, int* input, bool (*f)(int), int ni, int* no) {
 }
 
 bool isEven(int x) {
-  return (x + 1) % 2; // Correction de la fonction isEven
+  return (x + 1) % 2; 
 }
 
 int main(int argc, char* argv[]) {
@@ -32,11 +32,11 @@ int main(int argc, char* argv[]) {
   }
 
   int *output = malloc(n * sizeof(int));
-  int *no = malloc(sizeof(int)); // Allouer de la mémoire pour no
+  int *no = malloc(sizeof(int)); 
   
   if (output == NULL || no == NULL) {
     fprintf(stderr, "Erreur d'allocation mémoire pour output ou no\n");
-    free(input); // Libérer la mémoire allouée pour input avant de quitter
+    free(input); 
     free(output);
     free(no);
     return 1;
@@ -49,7 +49,6 @@ int main(int argc, char* argv[]) {
   }
   printf("\n");
   */
-  // Libérer la mémoire allouée pour input, output et no
   free(input);
   free(output);
   free(no);
