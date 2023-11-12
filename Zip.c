@@ -13,7 +13,7 @@ void ZipInner(Pair* output, int* input1, int* input2, int n ) {
 }
 
 int main(int argc, char *argv[]) {
-  int n = 50000000; // Vous pouvez ajuster la taille selon vos besoins
+  int n = 50000000; 
 
   Pair *output = malloc(n * sizeof(Pair));
   int *input1 = malloc(n * sizeof(int));
