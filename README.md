@@ -29,7 +29,7 @@ Welcome to CoreForge, a C library containing essential functions crafted for opt
 
 To use CoreForge in your C project, simply include the library and start leveraging these efficient functional programming functions.
 
+
+TODO: 
 ```c
 #include "coreforge.h"
-
-// Your code here
