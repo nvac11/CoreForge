@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
   }
   int nbToTake = 100000;
   int * output = malloc(nbToTake * sizeof(int));
-  take(output, input, n);
-  for (int i = 0; i < n; i++) {
-    printf(" %d", input[i]); 
+  take(output, input, nbToTake);
+  for (int i = 0; i < nbToTake; i++) {
+    printf(" %d", output[i]); 
   }
   printf("\n");
   return 0;
