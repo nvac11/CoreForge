@@ -17,7 +17,7 @@ Welcome to CoreForge, a C library containing essential functions crafted for opt
 - **GroupBy**: Groups list elements according to a key.
 - **Distinct**: Returns a list without duplicates.
 - **Take**: Returns the first elements of a list. DONE
-- **Drop**: Returns a list without the first elements.
+- **Drop**: Returns a list without the first elements. DONE
 - **Concat**: Concatenates multiple lists.
 - **ZipWithIndex**: Associates each element with its index.
 - **Repeat**: Creates a list by repeating an element a certain number of times.
