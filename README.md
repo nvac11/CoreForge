@@ -16,7 +16,7 @@ Welcome to CoreForge, a C library containing essential functions crafted for opt
 - **Sort**: Sorts a list according to a specified criterion. DONE
 - **GroupBy**: Groups list elements according to a key.
 - **Distinct**: Returns a list without duplicates.
-- **Take**: Returns the first elements of a list.
+- **Take**: Returns the first elements of a list. DONE
 - **Drop**: Returns a list without the first elements.
 - **Concat**: Concatenates multiple lists.
 - **ZipWithIndex**: Associates each element with its index.
