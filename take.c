@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-void take(int * output , int * input, int n)
+void take(int * output , int * input, int nbToTake)
 {
-  for (int i = 0; i < n; i++) {
+  for (int i = 0; i < nbToTake; i++) {
     output[i] = input[i];
   }
 }
