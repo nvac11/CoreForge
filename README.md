@@ -4,16 +4,16 @@ Welcome to CoreForge, a C library containing essential functions crafted for opt
 
 ## Implemented Functions:
 
-- **Map**: Applies a function to each element of a list.
-- **Reduce (Fold)**: Combines list elements using an associative function.
-- **Filter**: Returns a list containing elements that satisfy a given condition.
-- **Zip**: Combines two lists element-wise.
-- **Scan**: Produces a list of intermediate results during the application of a cumulative function.
-- **ForEach**: Applies a function to each element without returning a result.
-- **Any**: Checks if at least one element satisfies a condition.
-- **All**: Checks if all elements satisfy a condition.
+- **Map**: Applies a function to each element of a list. DONE
+- **Reduce (Fold)**: Combines list elements using an associative function. DONE
+- **Filter**: Returns a list containing elements that satisfy a given condition. DONE
+- **Zip**: Combines two lists element-wise. DONE
+- **Scan**: Produces a list of intermediate results during the application of a cumulative function. DONE
+- **ForEach**: Applies a function to each element without returning a result. DONE
+- **Any**: Checks if at least one element satisfies a condition.DONE
+- **All**: Checks if all elements satisfy a condition. DONE
 - **Partition**: Divides a list based on a specified condition.
-- **Sort**: Sorts a list according to a specified criterion.
+- **Sort**: Sorts a list according to a specified criterion. DONE
 - **GroupBy**: Groups list elements according to a key.
 - **Distinct**: Returns a list without duplicates.
 - **Take**: Returns the first elements of a list.
