@@ -21,7 +21,7 @@ Welcome to CoreForge, a C library containing essential functions crafted for opt
 - **Concat**: Concatenates multiple lists.
 - **ZipWithIndex**: Associates each element with its index.
 - **Repeat**: Creates a list by repeating an element a certain number of times.
-- **Generate**: Generates a list by applying a function to each index.
+- **Generate**: Generates a list by applying a function to each index. DONE
 - **Chunk**: Divides a list into chunks of a fixed size.
 - **Reverse**:  reverse a list.
 - **Automatic Parallelization**: Function for automatically parallelizing execution using multiple cores.
