@@ -19,7 +19,7 @@ Welcome to CoreForge, a C library containing essential functions crafted for opt
 - **Take**: Returns the first elements of a list. DONE
 - **Drop**: Returns a list without the first elements. DONE
 - **Concat**: Concatenates multiple lists.
-- **ZipWithIndex**: Associates each element with its index.
+- **ZipWithIndex**: Associates each element with its index. DONE
 - **Repeat**: Creates a list by repeating an element a certain number of times.
 - **Generate**: Generates a list by applying a function to each index. DONE
 - **Chunk**: Divides a list into chunks of a fixed size.
