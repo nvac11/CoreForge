@@ -12,17 +12,17 @@ Welcome to CoreForge, a C library containing essential functions crafted for opt
 - **ForEach**: Applies a function to each element without returning a result. DONE
 - **Any**: Checks if at least one element satisfies a condition.DONE
 - **All**: Checks if all elements satisfy a condition. DONE
-- **Partition**: Divides a list based on a specified condition.
+- **Partition**: Divides a list based on a specified condition. DONE
 - **Sort**: Sorts a list according to a specified criterion. DONE
 - **GroupBy**: Groups list elements according to a key.
-- **Distinct**: Returns a list without duplicates.
+- **Distinct**: Returns a list without duplicates. <= 
 - **Take**: Returns the first elements of a list. DONE
 - **Drop**: Returns a list without the first elements. DONE
 - **Concat**: Concatenates multiple lists. DONE
 - **ZipWithIndex**: Associates each element with its index. DONE
 - **Repeat**: Creates a list by repeating an element a certain number of times. DONE
 - **Generate**: Generates a list by applying a function to each index. DONE
-- **Chunk**: Divides a list into chunks of a fixed size.
+- **Chunk**: Divides a list into chunks of a fixed size. DONE
 - **Reverse**:  reverse a list. DONE
 - **Automatic Parallelization**: Function for automatically parallelizing execution using multiple cores.
 
