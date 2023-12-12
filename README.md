@@ -24,11 +24,25 @@ Welcome to CoreForge, a C library containing essential functions crafted for opt
 - **Generate**: Generates a list by applying a function to each index. DONE
 - **Chunk**: Divides a list into chunks of a fixed size. DONE
 - **Reverse**:  reverse a list. DONE
-- **Automatic Parallelization**: Function for automatically parallelizing execution using multiple cores.
-
-## Usage
-
-To use CoreForge in your C project, simply include the library and start leveraging these efficient functional programming functions.
+- **Parallel Map**: Applies a function to each element of a list. 
+- **Parallel Filter**: Returns a list containing elements that satisfy a given condition.
+- **Parallel Zip**: Combines two lists element-wise. 
+- **Parallel Scan**: Produces a list of intermediate results during the application of a cumulative function. 
+- **Parallel ForEach**: Applies a function to each element without returning a result. 
+- **Parallel Any**: Checks if at least one element satisfies a condition.
+- **Parallel All**: Checks if all elements satisfy a condition. 
+- **Parallel Partition**: Divides a list based on a specified condition. 
+- **Parallel Sort**: Sorts a list according to a specified criterion. 
+- **Parallel GroupBy**: Groups list elements according to a key.
+- **Parallel Distinct**: Returns a list without duplicates.  
+- **Parallel Take**: Returns the first elements of a list. 
+- **Parallel Drop**: Returns a list without the first elements. 
+- **Parallel Concat**: Concatenates multiple lists. 
+- **Parallel ZipWithIndex**: Associates each element with its index. 
+- **Parallel Repeat**: Creates a list by repeating an element a certain number of times. 
+- **Parallel Generate**: Generates a list by applying a function to each index. 
+- **Parallel Chunk**: Divides a list into chunks of a fixed size. 
+- **Parallel Reverse**:  reverse a list. 
 
 
 TODO: 
