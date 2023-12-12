@@ -42,7 +42,26 @@ Welcome to CoreForge, a C library containing essential functions crafted for opt
 - **Parallel Repeat**: Creates a list by repeating an element a certain number of times. 
 - **Parallel Generate**: Generates a list by applying a function to each index. 
 - **Parallel Chunk**: Divides a list into chunks of a fixed size. 
-- **Parallel Reverse**:  reverse a list. 
+- **Parallel Reverse**:  reverse a list.
+- **Distributed Map**: Applies a function to each element of a list. 
+- **Distributed Filter**: Returns a list containing elements that satisfy a given condition.
+- **Distributed Zip**: Combines two lists element-wise. 
+- **Distributed Scan**: Produces a list of intermediate results during the application of a cumulative function. 
+- **Distributed ForEach**: Applies a function to each element without returning a result. 
+- **Distributed Any**: Checks if at least one element satisfies a condition.
+- **Distributed All**: Checks if all elements satisfy a condition. 
+- **Distributed Partition**: Divides a list based on a specified condition. 
+- **Distributed Sort**: Sorts a list according to a specified criterion. 
+- **Distributed GroupBy**: Groups list elements according to a key.
+- **Distributed Distinct**: Returns a list without duplicates.  
+- **Distributed Take**: Returns the first elements of a list. 
+- **Distributed Drop**: Returns a list without the first elements. 
+- **Distributed Concat**: Concatenates multiple lists. 
+- **Distributed ZipWithIndex**: Associates each element with its index. 
+- **Distributed Repeat**: Creates a list by repeating an element a certain number of times. 
+- **Distributed Generate**: Generates a list by applying a function to each index. 
+- **Distributed Chunk**: Divides a list into chunks of a fixed size. 
+- **Distributed Reverse**:  reverse a list.
 
 
 TODO: 
