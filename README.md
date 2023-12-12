@@ -24,6 +24,7 @@ Welcome to CoreForge, a C library containing essential functions crafted for opt
 - **Generate**: Generates a list by applying a function to each index. DONE
 - **Chunk**: Divides a list into chunks of a fixed size. DONE
 - **Reverse**:  reverse a list. DONE
+## Functions to implement:
 - **Parallel Map**: Applies a function to each element of a list. 
 - **Parallel Filter**: Returns a list containing elements that satisfy a given condition.
 - **Parallel Zip**: Combines two lists element-wise. 
