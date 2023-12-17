@@ -28,7 +28,6 @@ Welcome to CoreForge, a C library containing essential functions crafted for opt
 - **Parallel Map**: Applies a function to each element of a list. 
 - **Parallel Filter**: Returns a list containing elements that satisfy a given condition.
 - **Parallel Zip**: Combines two lists element-wise. 
-- **Parallel Scan**: Produces a list of intermediate results during the application of a cumulative function. 
 - **Parallel ForEach**: Applies a function to each element without returning a result. 
 - **Parallel Any**: Checks if at least one element satisfies a condition.
 - **Parallel All**: Checks if all elements satisfy a condition. 
@@ -47,7 +46,6 @@ Welcome to CoreForge, a C library containing essential functions crafted for opt
 - **Distributed Map**: Applies a function to each element of a list. 
 - **Distributed Filter**: Returns a list containing elements that satisfy a given condition.
 - **Distributed Zip**: Combines two lists element-wise. 
-- **Distributed Scan**: Produces a list of intermediate results during the application of a cumulative function. 
 - **Distributed ForEach**: Applies a function to each element without returning a result. 
 - **Distributed Any**: Checks if at least one element satisfies a condition.
 - **Distributed All**: Checks if all elements satisfy a condition. 
