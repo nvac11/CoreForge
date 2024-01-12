@@ -1,6 +1,6 @@
 # CoreForge
 
-Welcome to CoreForge, a C library containing essential functions crafted for optimal performance in functional programming paradigms.
+Welcome to CoreForge, a standard C library containing essential functions crafted for good performance in functional programming paradigms.
 
 ## Implemented Functions:
 
