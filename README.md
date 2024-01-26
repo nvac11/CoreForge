@@ -3,7 +3,7 @@
 Welcome to CoreForge, a standard C library containing essential functions crafted for great performance in functional programming paradigms. 
 This library will include parallel and distributed versions for each function.
 
-⚠️ ## WARNING ⚠️
+## WARNING ⚠️
 - This library is still in development; unit tests need to be completed, and the user API is not finalized yet.   
 
 ## Implemented Functions:
