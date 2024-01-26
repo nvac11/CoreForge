@@ -1,6 +1,10 @@
 # CoreForge
 
-Welcome to CoreForge, a standard C library containing essential functions crafted for good performance in functional programming paradigms.
+Welcome to CoreForge, a standard C library containing essential functions crafted for great performance in functional programming paradigms. 
+This library will include parallel and distributed versions for each function.
+
+## WARNING 
+- This library is still in development; unit tests need to be completed, and the user API is not finalized yet.   
 
 ## Implemented Functions:
 
@@ -10,7 +14,7 @@ Welcome to CoreForge, a standard C library containing essential functions crafte
 - **Zip**: Combines two lists element-wise. DONE
 - **Scan**: Produces a list of intermediate results during the application of a cumulative function. DONE
 - **ForEach**: Applies a function to each element without returning a result. DONE
-- **Any**: Checks if at least one element satisfies a condition.DONE
+- **Any**: Checks if at least one element satisfies a condition. DONE
 - **All**: Checks if all elements satisfy a condition. DONE
 - **Partition**: Divides a list based on a specified condition. DONE
 - **Sort**: Sorts a list according to a specified criterion. DONE
@@ -23,8 +27,10 @@ Welcome to CoreForge, a standard C library containing essential functions crafte
 - **Repeat**: Creates a list by repeating an element a certain number of times. DONE
 - **Generate**: Generates a list by applying a function to each index. DONE
 - **Chunk**: Divides a list into chunks of a fixed size. DONE
-- **Reverse**:  reverse a list. DONE
-## Functions to implement:
+- **Reverse**: Reverse a list. DONE
+
+## Functions to be Implemented Soon:
+
 - **Parallel Map**: Applies a function to each element of a list. 
 - **Parallel Filter**: Returns a list containing elements that satisfy a given condition.
 - **Parallel Zip**: Combines two lists element-wise. 
@@ -42,7 +48,7 @@ Welcome to CoreForge, a standard C library containing essential functions crafte
 - **Parallel Repeat**: Creates a list by repeating an element a certain number of times. 
 - **Parallel Generate**: Generates a list by applying a function to each index. 
 - **Parallel Chunk**: Divides a list into chunks of a fixed size. 
-- **Parallel Reverse**:  reverse a list.
+- **Parallel Reverse**: Reverse a list.
 - **Distributed Map**: Applies a function to each element of a list. 
 - **Distributed Filter**: Returns a list containing elements that satisfy a given condition.
 - **Distributed Zip**: Combines two lists element-wise. 
@@ -60,8 +66,7 @@ Welcome to CoreForge, a standard C library containing essential functions crafte
 - **Distributed Repeat**: Creates a list by repeating an element a certain number of times. 
 - **Distributed Generate**: Generates a list by applying a function to each index. 
 - **Distributed Chunk**: Divides a list into chunks of a fixed size. 
-- **Distributed Reverse**:  reverse a list.
-
+- **Distributed Reverse**: Reverse a list.
 
 TODO: 
 ```c
